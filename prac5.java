@@ -26,7 +26,7 @@ class Result implements Exam, Classify {
 
     public static void main(String[] args) {
         Result s = new Result();
-        int mark = 50;
+        int mark = 90;
         double average = 25.00;
 
         if(s.isPassed(mark)){
