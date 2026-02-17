@@ -26,7 +26,7 @@ class Result implements Exam, Classify {
 
     public static void main(String[] args) {
         Result s = new Result();
-        int mark = 90;
+        int mark = 80;
         double average = 25.00;
 
         if(s.isPassed(mark)){
@@ -38,3 +38,4 @@ class Result implements Exam, Classify {
         System.out.println("The Division Of Student Is: " + s.getDivision(average));
     }
 }
+
